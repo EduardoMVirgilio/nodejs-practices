@@ -9,24 +9,32 @@ const requestManger = (req,res) => {
     let method= req.method;
     
     switch (method) {
+
         case "GET":
+            
             switch (path) {
 
                 case "/":
                     res.writeHead(200, {'Content-Type': 'text/html'});
+
                     res.write("<h1>Bienvenido al home</h1>");
+
                     res.end();
                 break;
                 
                 case "/about":
                     res.writeHead(200, {'Content-Type': 'text/html'});
+
                     res.write("<h1>Asi soy yo</h1>");
+
                     res.end()             
                 break;
 
                 default:
                     res.writeHead(404, {'Content-Type': 'text/plain'});
+
                     res.write("No se encontro la ruta");
+                    
                     res.end();
                 break;
             }

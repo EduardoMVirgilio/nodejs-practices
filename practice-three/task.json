@@ -1,0 +1,18 @@
+[
+  {
+    "titulo": "Hacer la cama",
+    "status": "incompleta"
+  },
+  {
+    "titulo": "Escribir un libro",
+    "status": "incompleta"
+  },
+  {
+    "titulo": "Plantar un árbol",
+    "status": "completa"
+  },
+  {
+    "titulo": "Tener Familia",
+    "status": "incompleta"
+  }
+]
