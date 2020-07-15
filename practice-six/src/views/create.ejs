@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("./imports/head") %> 
+</head>
+<body>
+    <h1 class="title" > Nueva Tarea </h1>
+    <form action="/guardar" method="post">
+        <input type="text" name="titulo" placeholder="titulo">
+        <label for="estado">
+            <input type="checkbox" name="estado" id="estado">
+            ¿ Esta completa ?
+        </label>
+        <br>
+        <button type="submit">guardar</button>
+    </form>
+</body>
+</html>
